@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,400&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+footer {
+  background-color: black;
+}
+
+.background-black {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+}
+
+/* texto */
+h2 {
+  font-size: 2rem;
+}
+
+.fontBig {
+  font-size: 4rem;
+  font-weight: 200;
+  text-decoration: underline;
+}
+
+.fontSmall {
+  font-size: 0.5rem;
+}
+article nav li a {
+  color: rgb(80, 80, 80);
+}
+article nav li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.migasPan {
+  display: flex;
+  justify-content: center;
+}
+/* IMAGENES */
+.img-footer {
+  width: 100px;
+}
+
+.img-fotografia {
+  width: 280px;
+}
+.imgNavLogo {
+  width: 100px;
+}
+
+/* Card*/
+.card-index {
+  max-width: 100%;
+}
+
+/*botones*/
+.btn-1 {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+/*Efectos */
+.transition {
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  height: 30px;
+  cursor: pointer;
+  background-color: violet;
+}
+
+.transition:hover {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  transition: all 2s;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-areas: "nav body" "nav body";
+}
+.nav-portafolio {
+  grid-area: nav;
+}
+.body-portafolio {
+  grid-area: body;
+}
+
+@media screen and (min-width: 768px) {
+  .card-index {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .imgNavLogo {
+    width: 70px;
+  }
+}
