@@ -52,8 +52,12 @@ article nav li a:hover {
 }
 /* IMAGENES */
 .img-footer {
+  width: 20px;
+}
+.logo-footer {
   width: 100px;
 }
+
 
 .img-fotografia {
   width: auto;
@@ -71,11 +75,6 @@ article nav li a:hover {
 
 .imgNavLogo {
   width: 100px;
-}
-
-.box {
-  position: relative;
-  display: inline-block;
 }
 
 /*circulo
