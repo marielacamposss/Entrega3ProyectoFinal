@@ -1,0 +1,101 @@
+
+article nav li a{
+    color: $secondColor;
+    &:hover {
+        color:$mainColor;  
+    }
+}
+
+//footer
+footer {
+    background-color: black;
+}
+
+  //header
+header{
+    position:sticky;
+    top:0;
+    z-index: 1;
+}
+
+.bg-clara{
+  background-color: $secondColor;
+}
+
+.background-black {
+    background-color: $mainColor;
+    color: $secondColor;
+    font-size: 1rem;
+  }
+
+//texto
+.fontBig {
+    font-size: $textXl;
+    font-weight: 200;
+    text-decoration: none;
+        &:hover {
+      text-decoration: underline;
+    }
+}
+
+
+h2 {
+    font-size: $textMd;
+}
+
+.fontSmall {
+    font-size: $textSm;
+
+}
+
+.migasPan {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+//card index
+.card-index {
+    max-width: 100%;
+    border:none;
+  }
+
+//botones
+.btn-1 {
+    color:$secondColor;
+    background-color:$mainColor;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  //efectos
+.transition {
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    background-color: violet;
+    
+  &:hover {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    transition: all 2s;
+  }
+}
+
+//grid portafolio
+  .grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "nav body" "nav body";
+  }
+  .nav-portafolio {
+    grid-area: nav;
+  }
+  .body-portafolio {
+    grid-area: body;
+  }

@@ -1,0 +1,24 @@
+.img-footer {
+    width: 20px;
+  }
+  .logo-footer {
+    width: 100px;
+  }
+    
+  .img-fotografia {
+    width: auto;
+    height: 250px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  
+  .img-fotografia:hover {
+    width: auto;
+    height: 250px;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+  
+  .imgNavLogo {
+    width: 100px;
+  }
