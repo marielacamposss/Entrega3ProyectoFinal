@@ -1,14 +1,19 @@
+@import "_mixing" ;
 
 article nav li a{
-    color: $secondColor;
+    color: $disableColor;
     &:hover {
         color:$mainColor;  
     }
 }
 
+p{
+  @include textoParrafos(1rem,1.5rem,color);
+}
+
 //footer
 footer {
-    background-color: black;
+    background-color: map-get($map: $paleta, $key:'mainColor');
 }
 
   //header
@@ -52,12 +57,12 @@ h2 {
     display: flex;
     justify-content: center;
 }
-
-
-
+.textItalic {
+  font-style: italic;
+}
 //card index
 .card-index {
-    max-width: 100%;
+    max-width: 90%;
     border:none;
   }
 
@@ -86,16 +91,3 @@ h2 {
     transition: all 2s;
   }
 }
-
-//grid portafolio
-  .grid-container {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-areas: "nav body" "nav body";
-  }
-  .nav-portafolio {
-    grid-area: nav;
-  }
-  .body-portafolio {
-    grid-area: body;
-  }

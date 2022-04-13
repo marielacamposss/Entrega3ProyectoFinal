@@ -1,0 +1,5 @@
+@mixin textoParrafos ($font-size,$line-height,$color){
+    font-size: $font-size;
+    line-height:$line-height;
+    color:black;
+}

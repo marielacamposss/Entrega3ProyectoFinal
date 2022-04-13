@@ -17,8 +17,14 @@
     height: 250px;
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+  
   }
   
   .imgNavLogo {
-    width: 100px;
+   @extend.logo-footer;
+  }
+
+  .icon {
+    @extend .logo-footer;
+    margin: 2rem;
   }
