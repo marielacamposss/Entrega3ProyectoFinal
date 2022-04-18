@@ -43,6 +43,16 @@ header{
     }
 }
 
+.font404 {
+  font-size: $textXl;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.text-decoration-underline {
+text-decoration: underline;
+}
 
 h2 {
     font-size: $textMd;
@@ -60,12 +70,21 @@ h2 {
 .textItalic {
   font-style: italic;
 }
+
+.font-index{
+  color: $secondColor;
+}
 //card index
 .card-index {
     max-width: 90%;
     border:none;
   }
-
+  .card-grey {
+    background-color: rgb(238, 239, 239);
+  }
+  .card-black {
+    background-color: $mainColor; 
+  }
 //botones
 .btn-1 {
     color:$secondColor;
@@ -74,18 +93,23 @@ h2 {
     border: none;
     border-radius: 10px;
   }
+  .btn-2 {
+    color:$mainColor;
+    background-color:$secondColor;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+  }
+
 
   //efectos
 .transition {
     border: none;
-    border-radius: 10px;
-    width: 30%;
-    height: 30px;
+
     cursor: pointer;
     background-color: violet;
     
   &:hover {
-    width: 100%;
     background-color: orange;
     color: white;
     transition: all 2s;

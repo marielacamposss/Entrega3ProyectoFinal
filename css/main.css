@@ -45,6 +45,14 @@ header {
   .fontBig:hover {
     text-decoration: underline; }
 
+.font404 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-decoration: none; }
+
+.text-decoration-underline {
+  text-decoration: underline; }
+
 h2 {
   font-size: 2em; }
 
@@ -58,9 +66,18 @@ h2 {
 .textItalic {
   font-style: italic; }
 
+.font-index {
+  color: white; }
+
 .card-index {
   max-width: 90%;
   border: none; }
+
+.card-grey {
+  background-color: #eeefef; }
+
+.card-black {
+  background-color: black; }
 
 .btn-1 {
   color: white;
@@ -69,15 +86,18 @@ h2 {
   border: none;
   border-radius: 10px; }
 
+.btn-2 {
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 10px; }
+
 .transition {
   border: none;
-  border-radius: 10px;
-  width: 30%;
-  height: 30px;
   cursor: pointer;
   background-color: violet; }
   .transition:hover {
-    width: 100%;
     background-color: orange;
     color: white;
     transition: all 2s; }
