@@ -12,6 +12,36 @@
   .imgNavLogo {
     width: 70px; } }
 
+@media (min-width: 280px) and (max-width: 911px) {
+  .fontBigFotografia {
+    font-weight: 100;
+    text-decoration: none; }
+    .fontBigFotografia:hover {
+      text-decoration: underline; } }
+
+@media (min-width: 912px) {
+  .fontBigFotografia {
+    font-size: 4rem;
+    font-weight: 200;
+    text-decoration: none; }
+    .fontBigFotografia:hover {
+      text-decoration: underline; } }
+
+@media (min-width: 280px) and (max-width: 350px) {
+  .fontBig {
+    font-weight: 100;
+    text-decoration: none; }
+    .fontBig:hover {
+      text-decoration: underline; } }
+
+@media (min-width: 351px) {
+  .fontBig {
+    font-size: 4rem;
+    font-weight: 200;
+    text-decoration: none; }
+    .fontBig:hover {
+      text-decoration: underline; } }
+
 article nav li a {
   color: dimgray; }
   article nav li a:hover {
@@ -37,13 +67,6 @@ header {
   background-color: black;
   color: white;
   font-size: 1rem; }
-
-.fontBig {
-  font-size: 4rem;
-  font-weight: 200;
-  text-decoration: none; }
-  .fontBig:hover {
-    text-decoration: underline; }
 
 .font404 {
   font-size: 4rem;
@@ -75,9 +98,6 @@ h2 {
 
 .card-grey {
   background-color: #eeefef; }
-
-.card-black {
-  background-color: black; }
 
 .btn-1 {
   color: white;

@@ -9,3 +9,46 @@
       width: 70px;
     }
   }
+
+  @media (min-width: 280px) and (max-width: 911px) {
+    .fontBigFotografia {
+      font-weight: 100;
+      text-decoration: none;
+          &:hover {
+        text-decoration: underline;
+    }
+  }
+  }
+  
+  @media (min-width: 912px) {
+    .fontBigFotografia {
+      font-size: $textXl;
+      font-weight: 200;
+      text-decoration: none;
+          &:hover {
+        text-decoration: underline;
+    }
+  }
+  }
+
+  
+  @media (min-width: 280px) and (max-width: 350px) {
+    .fontBig {
+      font-weight: 100;
+      text-decoration: none;
+          &:hover {
+        text-decoration: underline;
+    }
+  }
+  }
+  
+  @media (min-width: 351px) {
+    .fontBig {
+      font-size: $textXl;
+      font-weight: 200;
+      text-decoration: none;
+          &:hover {
+        text-decoration: underline;
+    }
+  }
+  }

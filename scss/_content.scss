@@ -34,14 +34,6 @@ header{
   }
 
 //texto
-.fontBig {
-    font-size: $textXl;
-    font-weight: 200;
-    text-decoration: none;
-        &:hover {
-      text-decoration: underline;
-    }
-}
 
 .font404 {
   font-size: $textXl;
@@ -82,9 +74,7 @@ h2 {
   .card-grey {
     background-color: rgb(238, 239, 239);
   }
-  .card-black {
-    background-color: $mainColor; 
-  }
+  
 //botones
 .btn-1 {
     color:$secondColor;
